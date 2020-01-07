@@ -1,9 +1,8 @@
 from collections import defaultdict
 from itertools import chain
-
-from django.http import HttpResponse
+import tensorflow as tf
 from django.views.generic import DetailView
-from requests import Response
+from rest_framework.response import Response
 from rest_framework.utils import json
 
 from .models import Product, Category,Comment
@@ -22,6 +21,8 @@ class ProductListCreate(generics.ListCreateAPIView):
 
     def perform_create(self, serializer):
         serializer.save(owner=self.request.user)
+
+
 
 
 class CommentListCreate(generics.ListCreateAPIView):
@@ -46,18 +47,20 @@ class CategoryListCreate(generics.ListCreateAPIView):
 
 
 class AllCommentsListCreate(generics.ListCreateAPIView):
-    serializer_class = CommentSerializer
+    queryset = Product.objects.all()
+    def list(self, request):
+        l=[]
+        # Note the use of `get_queryset()` instead of `self.queryset`
+        queryset = self.get_queryset()
+        for product in queryset :
+            comments=product.comments.filter()
+            serializer = CommentSerializer(comments, many=True)
+            l.append(serializer)
 
-    def get_queryset(self):
-        l=Comment.objects.none()
-        nombre =Product.objects.filter().count()
-        for product in Product.objects.all() :
-            comments=product.comments.values_list(flat=True)
-            l=chain(l,comments)
 
-        return l
-        
 
+        l=CommentSerializer(l,many=True)
+        return Response(l.data)
 
 
 

@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c80a131f-2287-4eee-82ad-05bb1f8ac20d" name="Default Changelist" comment="" />
+    <list default="true" id="c80a131f-2287-4eee-82ad-05bb1f8ac20d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sitemarchand/accounts/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/sitemarchand/accounts/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sitemarchand/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/sitemarchand/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sitemarchand/products/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/sitemarchand/products/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sitemarchand/products/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/sitemarchand/products/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sitemarchand/products/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/sitemarchand/products/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sitemarchand/products/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/sitemarchand/products/views.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,12 +43,18 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1Tkx2OWcLSq1BSNKxDMkMsNqcXH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -96,10 +112,30 @@
       <workItem from="1577473717355" duration="4000" />
       <workItem from="1577564689068" duration="7713000" />
       <workItem from="1577608885763" duration="7284000" />
+      <workItem from="1577625624299" duration="1440000" />
+      <workItem from="1577630675971" duration="9631000" />
+      <workItem from="1577703523983" duration="173000" />
+      <workItem from="1577783679162" duration="1211000" />
+      <workItem from="1577807524953" duration="4579000" />
+      <workItem from="1577873209940" duration="5815000" />
+      <workItem from="1577899950144" duration="2022000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
